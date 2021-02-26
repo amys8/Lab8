@@ -5,12 +5,12 @@ describe('Volume icon level is ', () => {
         expect(formatVolumeIconPath(69)).toContain("3");
     });
     test('2', () => {
-        expect(formatVolumeIconPath(40)).toContain("3");
+        expect(formatVolumeIconPath(40)).toContain("2");
     });
     test('1', () => {
-        expect(formatVolumeIconPath(8)).toContain("3");
+        expect(formatVolumeIconPath(8)).toContain("1");
     });
     test('0', () => {
-        expect(formatVolumeIconPath(0)).toContain("3");
+        expect(formatVolumeIconPath(0)).toContain("0");
     });
 });
