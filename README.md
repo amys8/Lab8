@@ -1,4 +1,3 @@
-# Lab8
+Amy Shen
 
-Cypress and Jest weren't working too well together
-so we've separated the two out in different parts
+A15798416
