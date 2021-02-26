@@ -1,4 +1,4 @@
-const formatVolumeIconPath = require('../assets/scripts/formatVolumeIconPath');
+var formatVolumeIconPath = require('./assets/scripts/formatVolumeIconPath');
 
 describe('Volume icon level is ', () => {
     test('3', () => {
